@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>&amp;Menu</name>
+    <events>
+        <variable constant="0" name="Cursor" sid="644273607187379" static="0" type="number">1</variable>
+        <event-block sid="240782688833281">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="508959589302956" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="107750065756686" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="882445282061615">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="929692096776937" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="314729122686155" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="856074674705420">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="998314480625496" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="755589865950712" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="654367980666212">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="740116528275790" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="723411264050113" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="941250025085680">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="382304973831781" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="681299967168139" type="Cursor">
+                    <param id="0" name="Y">102</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="945141991109905">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="470307544408663" type="Keyboard">
+                            <param id="0" name="Key">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="873504605693957" type="System">
+                            <param id="0" name="Layout">Act1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="200842721821175">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="510716003718576" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="478483508750196" type="Cursor">
+                    <param id="0" name="Y">117</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="705010289783117">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="483899190431762" type="Keyboard">
+                            <param id="0" name="Key">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="980026926964081" type="System">
+                            <param id="0" name="Layout">Options</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="339611626464621">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="809746479301525" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="474411085709225" type="Cursor">
+                    <param id="0" name="Y">132</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="214147262997976">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="995145886849315" type="Keyboard">
+                            <param id="0" name="Key">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="184760454514127" type="System">
+                            <param id="0" name="Layout">Credits</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="513512179441859">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="597270493378040" type="System">
+                    <param id="0" name="Variable">Cursor</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="362489696309448" type="Cursor">
+                    <param id="0" name="Y">147</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="984029324530964">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="513802559656069" type="Keyboard">
+                            <param id="0" name="Key">13</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Close" sid="419604104294287" type="Browser" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
